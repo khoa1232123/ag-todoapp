@@ -1,0 +1,13 @@
+header {
+  @include flex(center, space-between);
+  margin-bottom: 20px;
+  * {
+    margin: 0;
+  }
+}
+
+.menu {
+  a {
+    padding: 10px 15px;
+  }
+}
